@@ -1,0 +1,37 @@
+파이썬 : Python
+
+- 박세진 강사
+- 2008년
+- KT&G / CJ / 대웅제약
+- Python + C + Java
+
+- Python : Backend
+- Python : Data
+- Python : AI (*4차 붐업)
+> ML / DL
+> 라이브러리 호환성
+
+- 쉽다
+- 객체지향 프로그래밍 언어
+- 유연하다
+
+> 파이썬 프로그래밍 언어
+- 프로그램 설치
+1) Web Editor : 코딩 > 확장프로그램 (컴파일러)
+> VS code
+
+2) IDE : 코드 > 컴파일링
+> 아나콘다 > 쥬피터 노트북
+> 파이참
+
+3.13.7 => 
+
+Mac : 파이썬 프로그램 설치
+
+코드 > git-hub
+
+데이터 및 시각화 => 크롤링
+개발 => 
+
+https://github.com/Divjason/python_250910
+
