@@ -34,3 +34,38 @@ class BankAccount :
     
     def __repr__(self) :
         return f"BankAccount(owner={self.owner}, balance={self.balance})"
+
+def main() :
+    print("=== 미니 가계부 ===")
+    owner = input("예금주명을 입력하세요 : ").strip() or "User"
+    account = BankAccount(owner, 0)
+    menu = "[메뉴] \ 1) 입금 \ 2) 출금 \ 3) 잔액조회 \ 4) 거래내역 \ 5) 종료 \ 선택 : "
+
+    while True :
+        choice = input(menu).strip()
+
+        try :
+            if choice == "1" :
+                amount = int(input("입금액 : "))
+                memo = input("메모(선택) : ")
+                account.deposit(amount, memo)
+                print(f"입금 완료. 현재 잔액 : {account.balance}")
+            elif choice == "2" :
+                amount = int(input("출금액 : "))
+                memo = input("메모(선택) : ")
+                account.withdraw(amount, memo)
+                print(f"출금 완료. 현재 잔액 : {account.balance}")
+            elif choice == "3" :
+                print(f"예금주 : {account.owner}, 현재잔액 : {account.balance}")
+            elif choice == "4" :
+                account.show_history()
+            elif choice == "5" :
+                print("종료합니다.")
+                break
+            else :
+                print("메뉴 번호를 다시 선택해주세요.")
+        except :
+            print("[오류]")
+
+if __name__ == "__main__" :
+    main()
