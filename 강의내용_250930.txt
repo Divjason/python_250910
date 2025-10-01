@@ -1,0 +1,24 @@
+*지금까지 학습한 내용은 파이썬 객체지향 프로그래밍 언어의 기초 문법
+
+*아무리 고도화된 프로그램 -> 간단한 기초 문법
+
+*기초 문법만 가지고는 아무것도 할 수 없음
+
+*사과잼
+
+*"사과" 품질 -> 사과잼 : 돈을 벌기로!!!
+
+파이썬 언어 : 진로 개척 방법
+한달 공부 x // 3개월 // 6개월 ~ 8개월
+
+1) 데이터분야 : Python + Selenium + Scrapy + RDBMS (MySQL + SQL) + DBMS (MongoDB + NoSQL) + Pandas + MatPlotlyMap/Seaborn -> Plotly (express / graph objects) + Tableau + Power BI + Framer
+
+2) 풀스택 분야 : Python + RDBMS (MySQL + SQL) + DBMS (MongoDB + NoSQL) + F/E + React + TS + Docker + AWS + Java + Socket I/O + auth + Protocol
+8개월
+
+3) AI분야 : Python + Selenium + Scrapy + RDBMS (MySQL + SQL) + DBMS (MongoDB + NoSQL) + Pandas + MatPlotlyMap/Seaborn -> Plotly (express / graph objects) + Tableau + Power BI + Framer + Numpy + Machine Learning + Deep Learning + LLM + RAG + n8n
+12개월 ~ 15개월
+
+
+컴퓨터 > git 설치 > git remote add origin 레포지토리주소
+git pull origin master
